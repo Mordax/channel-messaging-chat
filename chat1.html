@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Window 1</title>
+    <link rel="stylesheet" href="styles/chat1.css">
+</head>
+<body>
+    <div class="chat-box">
+        <h2>Chat Window 1</h2>
+        <div class="messages" id="messages"></div>
+        <div class="input-container">
+            <input type="text" id="messageInput" placeholder="Type your message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+    <script src="js/chat.js"></script>
+    <script>
+        initializeChat('chat1');
+    </script>
+</body>
+</html> 

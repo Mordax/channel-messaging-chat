@@ -1,0 +1,14 @@
+/* Import common chat styles */
+@import 'chat.css';
+
+.sent {
+    background-color: #e3f2fd;
+}
+
+button {
+    background-color: #2196f3;
+}
+
+button:hover {
+    background-color: #1976d2;
+} 
